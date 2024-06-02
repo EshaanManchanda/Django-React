@@ -1,0 +1,8 @@
+.vscode
+
+# Data base
+.sqlite3
+
+# Dependency Directories
+/node_modules/
+/venv/
