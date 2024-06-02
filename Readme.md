@@ -2,7 +2,7 @@
 
 Step 1: start project for backend Using Django
 
-''' pip install virtualenv 
+```pip install virtualenv ```
 
 ''' virtualenv venv''' or ''' python -m virtualenv venv '''
 
