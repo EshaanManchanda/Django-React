@@ -2,12 +2,12 @@
 
 Step 1: start project for backend Using Django
 
-''' pip install virtualenv '''
+``` pip install virtualenv ```
 
-''' virtualenv venv''' or ''' python -m virtualenv venv '''
+``` virtualenv venv``` or ``` python -m virtualenv venv ```
 
-''' venv/Scripts/activate ''' for windows
-''' source venv/bin/activate ''' for Linux
+``` venv/Scripts/activate ``` for windows
+``` source venv/bin/activate ``` for Linux
 
    ## If you get any error in activating in virtualenv
    search on google
@@ -16,19 +16,19 @@ Step 1: start project for backend Using Django
 
    1. open powershell and run as administrator
    2. run this command 
-   '''  Set-ExecutionPolicy -ExecutionPolicy Unrestricted '''
+   ```  Set-ExecutionPolicy -ExecutionPolicy Unrestricted ```
    it fix you issue
 
 step 2: start project requirements
 
-''' pip install -r requirements.txt '''
+``` pip install -r requirements.txt ```
 
 step 3: make migrations 
 
-''' python manage.py migrate'''
+``` python manage.py migrate```
 step 4: run server
 
-''' python manage.py runserver.py '''
+``` python manage.py runserver.py ```
 
 
 # Now Backend running successfully
@@ -38,7 +38,7 @@ step 4: run server
 
 1. if you want to create a new project just run this command
 
-''' npm create vite@latest frontend -- --template react '''
+``` npm create vite@latest frontend -- --template react ```
 
 
 
