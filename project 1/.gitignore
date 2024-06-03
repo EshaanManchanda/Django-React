@@ -1,4 +1,5 @@
 .vscode
+.env
 
 # Data base
 db.sqlite3

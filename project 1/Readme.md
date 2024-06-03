@@ -40,6 +40,37 @@ step 4: run server
 
 ``` npm create vite@latest frontend -- --template react ```
 
+or 
+
+``` npm install ```
+
+2. now start your frontend 
+
+``` npm run dev ```
+
+# Note
+
+if you want to use sqlite3 for backend change files to 
+
+1. manage.py line 9
+
+this ```  os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings.production')```
+
+to ``` os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings.developement')```
+
+
+2. wsgi.py line 14
+
+this ```os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings.production')```
+
+to ```os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings.developement')```
+
+3. asgi.py line 14
+
+this ```os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings.production')```
+
+to ```os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings.developement')```
+
 
 
 
